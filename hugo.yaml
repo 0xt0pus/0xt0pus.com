@@ -2,7 +2,7 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://0xt0pus.com/"
 title: 0xt0pus
-paginate: 5
+paginate: 6
 theme: [PaperMod]
 
 enableInlineShortcodes: true
