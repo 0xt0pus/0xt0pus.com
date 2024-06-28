@@ -13,7 +13,7 @@ buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 mainsections: ["posts","Certification-Reviews"]
-copyright: "**[example.site](https://example.site)**"
+copyright: "**[0xt0pus](https://0xt0pus.com)**"
 
 minify:
   disableXML: true
