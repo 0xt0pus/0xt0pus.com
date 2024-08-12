@@ -1,12 +1,13 @@
 ---
+author: "0xt0pus"
 title: "Altered Security CRTP Review"
+date: "2024-08-08"
 description: "Certified Red Team Professional (CRTP) is beginner level red teaming certification focused on Active Directory."
-dateString: 12 August 2024
-draft: false
 tags: ["CRTP", "Active Directory", "Certification"]
-weight: 3
 cover:
     image: "/certification/crtp/crtp.png"
+ShowToc: true
+TocOpen: false
 ---
 
 
