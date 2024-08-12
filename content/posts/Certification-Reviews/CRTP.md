@@ -6,16 +6,13 @@ draft: false
 tags: ["CRTP", "Active Directory", "Certification"]
 weight: 3
 cover:
-    image: "/certification/ceh/ceh.jpg"
+    image: "/certification/crtp/crtp.jpg"
 ---
 
 
 # Altered Security CRTP Review
 
 Certified Red Team Professional (CRTP) is beginner level red teaming certification focused on Active Directory. 
-
-![](https://0xt0pus.com/certification/emapt/eMAPT.png)
-
 
 
 # What is CRTP?
