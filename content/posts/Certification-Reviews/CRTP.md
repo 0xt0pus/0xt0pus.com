@@ -6,7 +6,7 @@ draft: false
 tags: ["CRTP", "Active Directory", "Certification"]
 weight: 3
 cover:
-    image: "/certification/crtp/crtp.jpg"
+    image: "/certification/crtp/crtp.png"
 ---
 
 
