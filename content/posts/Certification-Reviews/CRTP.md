@@ -37,13 +37,13 @@ For more information about different packages check the purchase option on the f
 https://www.alteredsecurity.com/adlab
 
 
-# My Experience with the Course:
+# My Experience with the Course
 
 I chose the on-demand course with 30 days of lab access. I found the videos a bit lengthy compared to other courses I've taken. There's no LMS system; instead, you'll be provided with a Google Drive link to the videos. This is because, rather than focusing on the LMS platform, they have prioritized the quality of the training. The learning from those lengthy videos is simply amazing. Nikhil Mittal is a well-known figure in AD Security. He not only teaches the topic but also shares insights on whether an attack would be detected, what type of logging or security solution would catch a specific attack, and how to bypass those security measures. He also shares his experiences related to those attacks.
 
 In the course, the instructor first teaches the theory and then demonstrates how to solve the lab on their platform for the related topic. A great aspect is that you get lifetime access to the course material, which remains accessible even after the exam.
 
-# My Experience with the Labs :
+# My Experience with the Labs
 
 In the lab, you will be given access to a student VM, which is a part of AD enviroment with multiple machines and forests. You need to apply what you've learned to access these machines in different ways.
 
@@ -72,7 +72,7 @@ The fourth machine was also straightforward, and I completed it quickly. The fif
 # Reporting
 Once the exam time ended, I had 48 hours to submit the report. After the exam, the first thing I did was get some much-needed sleep. Then, I worked on the report slowly and finished it the next day. I emailed the report and, five days later, received an email starting with, 'Congratulations! You have cleared the examination! You are now a Certified Red Team Professional.'
 
-# Tips for the Exam:
+# Tips for the Exam
 
 - Try to have different Mimikatz versions (exe,ps1 & etc ), if one does not work, use the second one. 
 - Always run Mimikatz with NT Authority System level access. It will throw errors sometimes even if you are administrator or in the administrator group. So always have NT Authority System level access and then run it. 
