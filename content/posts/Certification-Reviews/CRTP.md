@@ -57,7 +57,7 @@ In the exam, you are given a student user account on a machine with low-level ac
 
 You also have two chances to reset the entire exam environment, which will reset all the machines and provide you with fresh network instance, including the VPN configuration. I wouldn't recommend using this option unless you’ve encountered a serious issue, as the reset process takes 20-25 minutes, which would waste valuable time. Instead, use the quick restart option whenever possible.
 
-# Experience with Exam
+# My Experience with the Exam
 
 I started the exam in the morning, with hope that I could access all the machines by evening or bedtime. However, I was mistaken, as it took me a full 25 hours. I was extremely tired after 25 sleepless hours.
 
