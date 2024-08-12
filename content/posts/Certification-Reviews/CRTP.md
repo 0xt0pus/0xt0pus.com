@@ -10,11 +10,6 @@ cover:
 ---
 
 
-# Altered Security CRTP Review
-
-Certified Red Team Professional (CRTP) is beginner level red teaming certification focused on Active Directory. 
-
-
 # What is CRTP?
 
 Certified Red Team Professional (CRTP) is beginner level red teaming certification focused on Active Directory by Altered Security. This certification exam proves that certified professionals have sufficient knowledge to perform Red Teaming engagement on an Active Directory environment.
