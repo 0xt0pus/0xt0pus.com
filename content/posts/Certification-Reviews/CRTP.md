@@ -17,10 +17,10 @@ Certified Red Team Professional (CRTP) is beginner level red teaming certificati
 
 | Price              | $249 (With 30 Days Lab Access)                          |
 | ------------------ | ------------------------------------------------------- |
-| Passing score      | OS command execution on all the five target servers.    |
-| Allowed time       | 25 Hours exam time, and additional 48 hours for report. |
+| Passing Score      | OS command execution on all the five target servers.    |
+| Allowed Time       | 25 hours exam time, and additional 48 hours for report. |
 | Proctored?         | No                                                      |
-| Link to purchase   | [Here](https://www.alteredsecurity.com/adlab)           |
+| Link to Purchase   | [Here](https://www.alteredsecurity.com/adlab)           |
 | Exam Focused Areas | Red Teaming, Active Directory, MDI Bypass               |
 
 
