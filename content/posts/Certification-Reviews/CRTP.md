@@ -39,7 +39,7 @@ https://www.alteredsecurity.com/adlab
 
 # My Experience with the Course
 
-I chose the on-demand course with 30 days of lab access. I found the videos a bit lengthy compared to other courses I've taken. There's no LMS system; instead, you'll be provided with a Google Drive link to the videos. This is because, rather than focusing on the LMS platform, they have prioritized the quality of the training. The learning from those lengthy videos is simply amazing. Nikhil Mittal is a well-known figure in AD Security. He not only teaches the topic but also shares insights on whether an attack would be detected, what type of logging or security solution would catch a specific attack, and how to bypass those security measures. He also shares his experiences related to those attacks.
+I chose the on-demand course with 30 days of lab access. I found the videos a bit lengthy compared to other courses I've taken. There's no LMS system; instead, you'll be provided with a Google Drive link to the videos. This is because, rather than focusing on the LMS platform, they have prioritized the quality of the training. The learning from those lengthy videos is simply amazing. Nikhil Mittal is a well-known figure in AD Security. He not only teaches the topic but also shares insights on whether an attack would be detected, what type of logging or security solution would catch a specific attack, and how to bypass those security measures. He also shares his experiences related to those attacks.	
 
 In the course, the instructor first teaches the theory and then demonstrates how to solve the lab on their platform for the related topic. A great aspect is that you get lifetime access to the course material, which remains accessible even after the exam.
 
