@@ -234,7 +234,6 @@ The following were the user details with IDs and funds.
 the /dump path has a comment, which reveals the source code.
 The following part of the code was vulnerable to Race Condition. A race window exists in the if condition. We can send multiple request parallelly, it will bypass the if condition before the deduction of funds....</p>
   </div>
-  <p>This page has been visited <span id="visit-count">...</span> times.</p>
   <footer class="entry-footer"><span title='2023-09-09 00:00:00 +0000 UTC'>September 9, 2023</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;0xt0pus</footer>
   <a class="entry-link" aria-label="post link to Qualifier Web security (El Banco Amarillo) - CyberHackathon&#39;23" href="http://localhost:1313/posts/ctf-writeups/amarillo-web-cyberhackathon23/"></a>
 </article>
@@ -285,20 +284,7 @@ The following part of the code was vulnerable to Race Condition. A race window e
     });
 
 </script>
-<script>
-    const corsProxy = 'https://cors-anywhere.herokuapp.com/';
-const targetUrl = 'https://visitcounter-nmyr.onrender.com/api/visits';
 
-fetch(corsProxy + targetUrl)
-.then(response => response.json())
-.then(data => {
- console.log('Visits:', data.visits);
-})
-.catch(error => {
- console.error('Error fetching data:', error);
-});
-
- </script>
 
 
 <script>
