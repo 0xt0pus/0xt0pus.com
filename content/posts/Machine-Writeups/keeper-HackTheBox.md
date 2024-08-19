@@ -2,7 +2,7 @@
 author: "0xt0pus"
 title: "HackTheBox keeper machine Walkthrough"
 date: "2024-08-18"
-description: "Keeper is an easy level Hackthebox machine, which runs SSH and Web services. The web server uses default service credentials and provides admin level access. The SSH password of a user is leaked on the web server which can be used to obtain the user level access of the machine. The home directory of the user is serving a memory dump. This dump teaches the CVE-2023-32784. This was a vulnerability in the Keepass, where the master password of password vault Keepass is stored in the memory. The exploit of this CVE is used to obtained master password of the vault. This vault has the root user putty key file, which was converted to the SSH private key format and was being used to obtain root level access. "
+description: "Keeper is an easy level Hackthebox machine, which runs SSH and Web services. The web server uses default service credentials and provides admin level access on the web server. The SSH password of a user is leaked on the web server which can be used to obtain the user level access of the machine. The home directory of the user is serving a memory dump. This dump teaches the CVE-2023-32784. This was a vulnerability in the Keepass, where the master password of password vault Keepass is stored in the memory. The exploit of this CVE is used to obtained master password of the vault. This vault has the root user putty key file, which was converted to the SSH private key format and was being used to obtain root level access. "
 tags: ["Hackthebox", "CVE", "Machine-Walkthrough"]
 cover:
     image: "/writeups/Keeper-Hackthebox/Keeper.jpg"
@@ -32,7 +32,7 @@ The ssh and http port were open.
 The service version and OS enumeration is being carried out with the following command.
 ```bash
 ┌──(kali㉿kali)-[~/Desktop/hackthebox/keeper]
-└─$ nmap -p22,80 -A keeper.htb                              
+└─$ nmap -p22,80 -A keeper.htb --oN ServiceVersion.txt                    
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-08-18 18:14 EDT
 Stats: 0:00:07 elapsed; 0 hosts completed (1 up), 1 undergoing Script Scan
 NSE Timing: About 99.30% done; ETC: 18:14 (0:00:00 remaining)
@@ -83,7 +83,7 @@ Transferred it in my own kali machine and extracted it.
 ![](/writeups/Keeper-Hackthebox/7.png)
 
 
-This was the dump of the `Keepass` application. The keepass application below 2.54 has the vulnerability, in which the master password is stored in the memory of the system. There is an official POC https://github.com/vdohney/keepass-password-dumper.git, which can be used to obtain the password from the master password from the memory. As I was not having the dotnet environment installed, I found the alternative python based implementation [HERE](https://github.com/matro7sh/keepass-dump-masterkey) . So I used the python based implementation.  I used this one and retrieved the password as shown below. 
+This was the dump of the `Keepass` application. The keepass application below 2.54 has the vulnerability, in which the master password is stored in the memory of the system. There is an official POC https://github.com/vdohney/keepass-password-dumper.git, which can be used to obtain the master password from the memory. As I was not having the dotnet environment installed, I found the alternative python based implementation [HERE](https://github.com/matro7sh/keepass-dump-masterkey) . So I used the python based implementation.  I used this one and retrieved the password as shown below. 
 ![](/writeups/Keeper-Hackthebox/8.png)
 
 ## Privilege Escalation
