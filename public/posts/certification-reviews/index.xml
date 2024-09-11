@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Thu, 08 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/certification-reviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Altered Security CRTP Review</title>
+      <link>http://localhost:1313/posts/certification-reviews/crtp/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/certification-reviews/crtp/</guid>
+      <description>Certified Red Team Professional (CRTP) is beginner level red teaming certification focused on Active Directory.</description>
+    </item>
     <item>
       <title>eMAPT Exam Review</title>
       <link>http://localhost:1313/posts/certification-reviews/emapt/</link>

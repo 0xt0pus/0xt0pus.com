@@ -3,13 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/cve/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hackthebox/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/machine-walkthrough/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/machine-writeups/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/active-directory/</loc>
+    <lastmod>2024-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/certification-reviews/crtp/</loc>
+    <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/certification/</loc>
-    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/certification-reviews/</loc>
-    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/crtp/</loc>
+    <lastmod>2024-08-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/emapt/</loc>
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
@@ -21,12 +51,6 @@
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/penetration-testing/</loc>
-    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/ecppt/</loc>
@@ -53,12 +77,6 @@
     <loc>http://localhost:1313/tags/cmess/</loc>
     <lastmod>2023-10-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/machine-walkthrough/</loc>
-    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/machine-writeups/</loc>
-    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/tryhackme/</loc>
     <lastmod>2023-10-08T00:00:00+00:00</lastmod>
   </url><url>
@@ -70,9 +88,6 @@
   </url><url>
     <loc>http://localhost:1313/posts/ctf-writeups/amarillo-web-cyberhackathon23/</loc>
     <lastmod>2023-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hackthebox/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/machine-writeups/lame-hackthebox/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>

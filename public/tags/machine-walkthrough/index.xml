@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.124.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HackTheBox keeper machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</guid>
+      <description>Keeper is an easy level Hackthebox machine, which runs SSH and Web services. The web server uses default service credentials and provides admin level access on the web server. The SSH password of a user is leaked on the web server which can be used to obtain the user level access of the machine. The home directory of the user is serving a memory dump. This dump teaches the CVE-2023-32784. This was a vulnerability in the Keepass, where the master password of password vault Keepass is stored in the memory. The exploit of this CVE is used to obtained master password of the vault. This vault has the root user putty key file, which was converted to the SSH private key format and was being used to obtain root level access. </description>
+    </item>
     <item>
       <title>TryHackMe Cmess machine Walkthrough</title>
       <link>http://localhost:1313/posts/machine-writeups/cmess-tryhackme/</link>
