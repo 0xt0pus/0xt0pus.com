@@ -107,6 +107,12 @@ params:
     - name: X
       title: Follow me on Twitter(X)
       url: "https://twitter.com/0xt0pus"
+    - name: Github
+      title: Checkout my projects on Github
+      url: "https://github.com/0xt0pus"
+    - name: Youtube
+      title: Watch My Videos on Youtube
+      url: "https://youtube.com/@GrowInCyber"
 
   # editPost:
   #   URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"
