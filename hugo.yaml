@@ -30,7 +30,7 @@ languages:
     menu:
       main:
         - name: OSCP ToDo Boxes
-          url: posts/OSCP-Todo-Boxes
+          url: posts/OSCP-Todo-Boxes.md
           weight: 1
         - name: Certification Reviews
           url: posts/certification-reviews
