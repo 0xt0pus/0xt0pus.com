@@ -1,8 +1,8 @@
 ---
 title: "Boxes To Do for OSCP"
 layout: "todo"
-summary: The To Do list of Boxes for OSCP Preparation
-description: The To Do list of Boxes for OSCP Preparation
+summary: To Do list of Boxes for OSCP Preparation
+description: To Do list of Boxes for OSCP Preparation
 ---
 
 # List of Boxes
