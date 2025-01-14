@@ -1,8 +1,8 @@
 ---
 title: "OSCP Preparation: To-Do List"
 layout: "todo"
-summary: "Comprehensive To-Do List of Boxes for OSCP Preparation"
-description: "Track your progress on Linux, Windows, and AD boxes for OSCP."
+summary: "To-Do List of Boxes for OSCP Preparation"
+description: "My progress on Linux, Windows, and AD boxes for OSCP."
 ---
 
 # 📋 OSCP Preparation: To-Do List
