@@ -1,5 +1,6 @@
 ---
-title: OSCP-ToDo-Boxes
+title: "OSCP-Todo-Boxes"
+layout: "OSCP-Todo-Boxes"
 summary: The Boxes that i aimed to do for the OSCP Preparation
 description: The Boxes that i aimed to do for the OSCP Preparation
 ---
