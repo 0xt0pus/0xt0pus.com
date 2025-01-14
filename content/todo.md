@@ -1,29 +1,61 @@
 ---
-title: "todo"
+title: "Boxes To Do for OSCP"
 layout: "todo"
-summary: The Boxes that i aimed to do for the OSCP Preparation
-description: The Boxes that i aimed to do for the OSCP Preparation
+summary: The To Do list of Boxes for OSCP Preparation
+description: The To Do list of Boxes for OSCP Preparation
 ---
 
-# To-Do List
+# List of Boxes
 
-## 🟢 High Priority
-- [X] Submit project report by 5 PM
-- [ ] Schedule team meeting for next week
-- [ ] Pay electricity bill (due: Jan 15)
+## 🟢 Linux Boxes
+- [X] Busqueda
+- [ ] UpDown
+- [ ] Sau
+- [ ] Help
+- [ ] Broker
+- [ ] Intentions
+- [ ] Soccer
+- [X] Keeper
+- [ ] Monitored
+- [ ] BoardLight
+- [ ] Networked
+- [ ] CozyHosting
+- [ ] Editorial
+- [ ] Magic
+- [ ] Pandora
+- [ ] Builder
+- [ ] LinkVortex
+- [ ] Usage
 
-## 🟡 Medium Priority
-- [ ] Review design draft for client
-- [ ] Organize workspace
-- [ ] Follow up with supplier
+## 🟡 Windows Boxes
+- [ ] Escape
+- [ ] Servmon
+- [ ] Support
+- [ ] StreamIO
+- [ ] Blackfield
+- [ ] Intelligence
+- [ ] Jeeves
+- [ ] Manager
+- [ ] Access
+- [ ] Aero
+- [ ] Mailing
+- [ ] Administrator
+- [ ] Certified
 
-## 🟣 Low Priority
-- [ ] Buy new plants for office
-- [ ] Update personal blog
-- [ ] Plan weekend outing
+## 🟣 AD Boxes
+- [ ] Active
+- [ ] Forest
+- [ ] Sauna
+- [ ] Monteverde
+- [ ] Timelapse
+- [ ] Return
+- [ ] Cascade
+- [ ] Flight
+- [ ] Blackfield
+- [ ] Cicada
+- [ ] Escape
+- [ ] Adagio (HTB Enterprise Box)
 
 ---
 
-### Completed Tasks
-- [x] Book flight tickets for conference
-- [x] Send holiday greetings to team
+##### 2 Boxes owned out of 43. Progress = 4.6% 💪
