@@ -21,7 +21,8 @@ nmap -p- 10.10.11.208 --min-rate 2500 -T4 -oN nmap/allPorts.txt
 
 The following is the nmap all ports output:
 
-![[/writeups/busqueda-HackTheBox/2.png]]
+![](/writeups/busqueda-HackTheBox/2.png)
+
 
 As the port 22 and 80 are open. Now run the service enumeration to find out the version of services running on the target. 
 The following command was used for the service version enumeration. 
@@ -30,13 +31,14 @@ nmap -A 10.10.11.208 -p 22,80 -oN nmap/ServiceVersion.txt
 ```
 
 The result of the command shows below:
-![[/writeups/busqueda-HackTheBox/3.png]]
+![](/writeups/busqueda-HackTheBox/3.png)
 
 This shows the `searcher.htb` as the hostname. So updated it in the `/etc/hosts` file. 
 
 Visited the website, which is being shown below:
 
-![[/writeups/busqueda-HackTheBox/5.png]]
+![](/writeups/busqueda-HackTheBox/5.png)
+
 
 At the end, the version of the Searchor is shown, which is `Searchor 2.4.0`. Quickly searched if there's any vulnerabilities related to this version. 
 I came to know about the Command Injection vulnerability in this version and found an exploit code for that. 
