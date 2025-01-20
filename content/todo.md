@@ -14,14 +14,14 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 ---
 
 ## 🟢 **Linux Boxes**
-- [x] **Busqueda**
+- [x] **Busqueda** ([Write-up](https://0xt0pus.com/posts/machine-writeups/busqueda-hackthebox/))
 - [ ] **UpDown**
 - [ ] **Sau**
 - [ ] **Help**
 - [ ] **Broker**
 - [ ] **Intentions**
 - [ ] **Soccer**
-- [x] **Keeper**
+- [x] **Keeper** ([Write-up](https://0xt0pus.com/posts/machine-writeups/keeper-hackthebox/))
 - [ ] **Monitored**
 - [ ] **BoardLight**
 - [ ] **Networked**
