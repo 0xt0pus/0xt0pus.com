@@ -8,8 +8,8 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 # 📋 OSCP Preparation: To-Do List
 
 ## ✅ Progress
-- **4 Boxes Owned** out of **43** 🎉 
-- **Completion Rate**: 9.30% 💪
+- **5 Boxes Owned** out of **43** 🎉 
+- **Completion Rate**: 11.6% 💪
 
 ---
 
@@ -26,7 +26,7 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 - [ ] **BoardLight**
 - [ ] **Networked**
 - [ ] **CozyHosting**
-- [ ] **Editorial**
+- [x] **Editorial**
 - [ ] **Magic**
 - [ ] **Pandora**
 - [ ] **Builder**
