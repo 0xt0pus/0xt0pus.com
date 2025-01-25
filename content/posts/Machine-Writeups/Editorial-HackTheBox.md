@@ -23,7 +23,7 @@ nmap -p- --min-rate 2500 10.10.11.20 -oN allports.txt
 
 The following shows the result of the command:
 
-![](/writeups/Editorial-Hackthebox/1.png)
+![](/writeups/Editorial-HackTheBox/1.png)
 
 It shows port 22, 80 as open. In order to find the version of services, service version enumeration is being performed with the following command. 
 
