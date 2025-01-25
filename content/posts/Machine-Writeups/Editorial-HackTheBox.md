@@ -5,7 +5,7 @@ date: "2025-01-25"
 description: " "
 tags: ["Hackthebox", "CVE","OSCP-Preparation", "Machine-Walkthrough"]
 cover:
-    image: "/writeups/Editorial-Hackthebox/Cover.png"
+    image: "/writeups/Editorial-HackTheBox/Cover.png"
 ShowToc: true
 TocOpen: false
 ---
@@ -22,7 +22,9 @@ nmap -p- --min-rate 2500 10.10.11.20 -oN allports.txt
 ```
 
 The following shows the result of the command:
+
 ![](/writeups/Editorial-Hackthebox/1.png)
+
 It shows port 22, 80 as open. In order to find the version of services, service version enumeration is being performed with the following command. 
 
 ```

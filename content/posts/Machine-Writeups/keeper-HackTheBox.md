@@ -6,6 +6,7 @@ description: "Keeper is an easy level Hackthebox machine, which runs SSH and Web
 tags: ["Hackthebox", "CVE", "Machine-Walkthrough"]
 cover:
     image: "/writeups/Keeper-Hackthebox/Keeper.jpg"
+
 ShowToc: true
 TocOpen: false
 ---
