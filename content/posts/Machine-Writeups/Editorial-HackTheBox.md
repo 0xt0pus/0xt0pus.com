@@ -2,8 +2,8 @@
 author: "0xt0pus"
 title: "HackTheBox Editorial machine Walkthrough"
 date: "2025-01-25"
-description: ""
-tags: ["Hackthebox", "CVE","OSCP-Preparation" "Machine-Walkthrough"]
+description: " "
+tags: ["Hackthebox", "CVE","OSCP-Preparation", "Machine-Walkthrough"]
 cover:
     image: "/writeups/Editorial-Hackthebox/Cover.png"
 ShowToc: true

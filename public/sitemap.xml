@@ -3,27 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/cve/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/hackthebox/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/machine-walkthrough/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/machine-writeups/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/oscp-preparation/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-08-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/machine-writeups/busqueda-hackthebox/</loc>
+    <lastmod>2025-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</loc>
     <lastmod>2024-08-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/active-directory/</loc>
@@ -110,6 +119,8 @@
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/todo/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>

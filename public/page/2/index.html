@@ -51,7 +51,7 @@
   "description": "Personal Portfolio Website",
   "thumbnailUrl": "http://localhost:1313/favicon.ico",
   "sameAs": [
-      "https://linkedin.com/muhammadyqb", "https://twitter.com/0xt0pus", "https://github.com/0xt0pus/"
+      "https://linkedin.com/muhammadyqb", "https://twitter.com/0xt0pus", "https://github.com/0xt0pus/", "https://www.instagram.com/m__yqb/"
   ]
 }
 </script>
@@ -94,6 +94,11 @@
         </div>
         <ul id="menu">
             <li>
+                <a href="http://localhost:1313/todo" title="OSCP ToDo Boxes">
+                    <span>OSCP ToDo Boxes</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/posts/certification-reviews" title="Certification Reviews">
                     <span>Certification Reviews</span>
                 </a>
@@ -127,6 +132,35 @@
     </nav>
 </header>
 <main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Bypass square -  Web - NaScon&#39;23
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>In this challenge, we have to bypass two preg_match functions to get the flag.
+The Given Code &lt;?php #read flag.txt highlight_file(__FILE__); $code = $_GET[&#39;cmd&#39;]; $blocked_functions = &#39;/(exec|shell_exec|system|`)/i&#39;; if (preg_match($blocked_functions, $code)) { die(&#34;Hacking attempt detected&#34;); } else { $blocked_functions = &#34;/flag/i&#34;; if (preg_match($blocked_functions, $code)) { die(&#34;Hacking attempt detected&#34;); } else{ eval(urldecode($code)); } } ?&gt; Initially, It highlights the code file. Then it stores the ‘cmd’ get parameter value in code variable, it blocks all the functions through which we can execute the shell commands....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-02 00:00:00 +0000 UTC'>February 2, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;0xt0pus</footer>
+  <a class="entry-link" aria-label="post link to Bypass square -  Web - NaScon&#39;23" href="http://localhost:1313/posts/ctf-writeups/bypass-square-web-nascon23/"></a>
+</article>
+
+<article class="post-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/writeups/Cmess-Tryhackme/cmess.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">TryHackMe Cmess machine Walkthrough
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Setup The following entry is being added to the /etc/hosts.
+10.10.57.136 cmess.thm Enumeration Nmap all ports scan is being run. The following was the result of the scan.
+┌──(kali㉿kali)-[~/Desktop/tryhackme/cmess] └─$ nmap 10.10.57.136 -p- --min-rate 2500 Starting Nmap 7.93 ( https://nmap.org ) at 2023-08-31 16:44 EDT Warning: 10.10.57.136 giving up on port because retransmission cap hit (10). Nmap scan report for cmess.thm (10.10.57.136) Host is up (0.18s latency). Not shown: 65507 closed tcp ports (conn-refused), 26 filtered tcp ports (no-response) PORT STATE SERVICE 22/tcp open ssh 80/tcp open http Nmap done: 1 IP address (1 host up) scanned in 43....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-10-08 00:00:00 +0000 UTC'>October 8, 2023</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;0xt0pus</footer>
+  <a class="entry-link" aria-label="post link to TryHackMe Cmess machine Walkthrough" href="http://localhost:1313/posts/machine-writeups/cmess-tryhackme/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">

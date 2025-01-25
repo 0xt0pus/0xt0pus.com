@@ -12,8 +12,25 @@
     <generator>Hugo -- 0.124.1</generator>
     <language>en</language>
     <copyright>0xt0pus</copyright>
-    <lastBuildDate>Sun, 18 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/machine-walkthrough/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HackTheBox Editorial machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>HackTheBox Busqueda machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/busqueda-hackthebox/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/busqueda-hackthebox/</guid>
+      <description>Enumeration Run nmap all port scanning with the following command:
+nmap -p- 10.10.11.208 --min-rate 2500 -T4 -oN nmap/allPorts.txt The following is the nmap all ports output:
+As the port 22 and 80 are open. Now run the service enumeration to find out the version of services running on the target. The following command was used for the service version enumeration.
+nmap -A 10.10.11.208 -p 22,80 -oN nmap/ServiceVersion.txt The result of the command shows below: This shows the searcher.</description>
+    </item>
     <item>
       <title>HackTheBox keeper machine Walkthrough</title>
       <link>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</link>

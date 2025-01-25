@@ -79,6 +79,11 @@
         </div>
         <ul id="menu">
             <li>
+                <a href="http://localhost:1313/todo" title="OSCP ToDo Boxes">
+                    <span>OSCP ToDo Boxes</span>
+                </a>
+            </li>
+            <li>
                 <a href="http://localhost:1313/posts/certification-reviews" title="Certification Reviews">
                     <span>Certification Reviews</span>
                 </a>
@@ -125,6 +130,39 @@
     </a>
   </h1>
 </header>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/writeups/Editorial-Hackthebox/Cover.png" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">HackTheBox Editorial machine Walkthrough
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Enumeration Scanning with nmap All port scanning is being perform with the following command:
+nmap -p- --min-rate 2500 10.10.11.20 -oN allports.txt The following shows the result of the command: It shows port 22, 80 as open. In order to find the version of services, service version enumeration is being performed with the following command.
+nmap -p 22,80 10.10.11.20 -sC -sV -O -oN serviceVersion.txt As the web server is running, so the website is being browsed and the following is the hosted web server....</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-25 00:00:00 +0000 UTC'>January 25, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;0xt0pus</footer>
+  <a class="entry-link" aria-label="post link to HackTheBox Editorial machine Walkthrough" href="http://localhost:1313/posts/machine-writeups/editorial-hackthebox/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+<figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/writeups/busqueda-HackTheBox/cover.jpg" alt="">
+</figure>
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">HackTheBox Busqueda machine Walkthrough
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Enumeration Run nmap all port scanning with the following command:
+nmap -p- 10.10.11.208 --min-rate 2500 -T4 -oN nmap/allPorts.txt The following is the nmap all ports output:
+As the port 22 and 80 are open. Now run the service enumeration to find out the version of services running on the target. The following command was used for the service version enumeration.
+nmap -A 10.10.11.208 -p 22,80 -oN nmap/ServiceVersion.txt The result of the command shows below: This shows the searcher....</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-01-20 00:00:00 +0000 UTC'>January 20, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;0xt0pus</footer>
+  <a class="entry-link" aria-label="post link to HackTheBox Busqueda machine Walkthrough" href="http://localhost:1313/posts/machine-writeups/busqueda-hackthebox/"></a>
+</article>
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover"><img loading="lazy" src="http://localhost:1313/writeups/Keeper-Hackthebox/Keeper.jpg" alt="">
