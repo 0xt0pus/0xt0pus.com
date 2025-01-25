@@ -16,7 +16,7 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 ## 🟢 **Linux Boxes**
 - [x] **Busqueda** ([Write-up](https://0xt0pus.com/posts/machine-writeups/busqueda-hackthebox/))
 - [ ] **UpDown**
-- [ ] **Sau**
+- [x] **Sau** ([Walkthrough](https://www.youtube.com/watch?v=jXbJndLklho))
 - [ ] **Help**
 - [ ] **Broker**
 - [ ] **Intentions**
@@ -30,7 +30,7 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 - [ ] **Magic**
 - [ ] **Pandora**
 - [ ] **Builder**
-- [ ] **LinkVortex**
+- [x] **LinkVortex**
 - [ ] **Usage**
 
 ---
