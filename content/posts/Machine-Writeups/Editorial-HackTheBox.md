@@ -1,6 +1,6 @@
 ---
 author: "0xt0pus"
-title: "HackTheBox keeper machine Walkthrough"
+title: "HackTheBox Editorial machine Walkthrough"
 date: "2025-01-25"
 description: ""
 tags: ["Hackthebox", "CVE","OSCP-Preparation" "Machine-Walkthrough"]
