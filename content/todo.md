@@ -8,8 +8,8 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 # 📋 OSCP Preparation: To-Do List
 
 ## ✅ Progress
-- **5 Boxes Owned** out of **43** 🎉 
-- **Completion Rate**: 11.6% 💪
+- **7 Boxes Owned** out of **43** 🎉 
+- **Completion Rate**: 16.6% 💪
 
 ---
 
@@ -17,8 +17,8 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 - [x] **Busqueda** ([Write-up](https://0xt0pus.com/posts/machine-writeups/busqueda-hackthebox/))
 - [ ] **UpDown**
 - [x] **Sau** ([Walkthrough](https://www.youtube.com/watch?v=jXbJndLklho))
-- [ ] **Help**
-- [ ] **Broker**
+- [x] **Help** ([Done]())
+- [x] **Broker** ([Done]())
 - [ ] **Intentions**
 - [ ] **Soccer**
 - [x] **Keeper** ([Write-up](https://0xt0pus.com/posts/machine-writeups/keeper-hackthebox/))
@@ -26,11 +26,11 @@ description: "My progress on Linux, Windows, and AD boxes for OSCP."
 - [ ] **BoardLight**
 - [ ] **Networked**
 - [ ] **CozyHosting**
-- [x] **Editorial**
+- [x] **Editorial** ([Done]())
 - [ ] **Magic**
 - [ ] **Pandora**
 - [ ] **Builder**
-- [x] **LinkVortex**
+- [x] **LinkVortex** ([Done]())
 - [ ] **Usage**
 
 ---
