@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Web on 0xt0pus</title>
+    <link>http://localhost:1313/tags/web/</link>
+    <description>Recent content in Web on 0xt0pus</description>
+    <image>
+      <title>0xt0pus</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Fri, 02 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bypass square -  Web - NaScon&#39;23</title>
+      <link>http://localhost:1313/posts/ctf-writeups/bypass-square-web-nascon23/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-writeups/bypass-square-web-nascon23/</guid>
+      <description>Bypass two preg_match functions to get the flag.</description>
+    </item>
+    <item>
+      <title>Qualifier Web security (El Banco Amarillo) - CyberHackathon&#39;23</title>
+      <link>http://localhost:1313/posts/ctf-writeups/amarillo-web-cyberhackathon23/</link>
+      <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-writeups/amarillo-web-cyberhackathon23/</guid>
+      <description>&lt;p&gt;The web security challenge was vulnerable to race condition.&lt;/p&gt;
+&lt;p&gt;The following was the given website.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/Amarillo-CTF/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following were the user details with IDs and funds.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/Amarillo-CTF/2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;the /dump path has a comment, which reveals the source code.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/Amarillo-CTF/3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The following part of the code was vulnerable to Race Condition. A race window exists in the if condition. We can send multiple request parallelly, it will bypass the if condition before the deduction of funds.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

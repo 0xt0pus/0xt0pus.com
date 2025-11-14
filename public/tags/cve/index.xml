@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CVE on 0xt0pus</title>
+    <link>http://localhost:1313/tags/cve/</link>
+    <description>Recent content in CVE on 0xt0pus</description>
+    <image>
+      <title>0xt0pus</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HackTheBox Editorial machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>HackTheBox keeper machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</guid>
+      <description>Keeper is an easy level Hackthebox machine, which runs SSH and Web services. The web server uses default service credentials and provides admin level access on the web server. The SSH password of a user is leaked on the web server which can be used to obtain the user level access of the machine. The home directory of the user is serving a memory dump. This dump teaches the CVE-2023-32784. This was a vulnerability in the Keepass, where the master password of password vault Keepass is stored in the memory. The exploit of this CVE is used to obtained master password of the vault. This vault has the root user putty key file, which was converted to the SSH private key format and was being used to obtain root level access. </description>
+    </item>
+  </channel>
+</rss>

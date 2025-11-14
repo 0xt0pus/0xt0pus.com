@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 0xt0pus</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on 0xt0pus</description>
+    <image>
+      <title>0xt0pus</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE</title>
+      <link>http://localhost:1313/tags/cve/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hackthebox</title>
+      <link>http://localhost:1313/tags/hackthebox/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hackthebox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine-Walkthrough</title>
+      <link>http://localhost:1313/tags/machine-walkthrough/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/machine-walkthrough/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSCP-Preparation</title>
+      <link>http://localhost:1313/tags/oscp-preparation/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/oscp-preparation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Active Directory</title>
+      <link>http://localhost:1313/tags/active-directory/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/active-directory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certification</title>
+      <link>http://localhost:1313/tags/certification/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/certification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CRTP</title>
+      <link>http://localhost:1313/tags/crtp/</link>
+      <pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/crtp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>EMAPT</title>
+      <link>http://localhost:1313/tags/emapt/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/emapt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Application</title>
+      <link>http://localhost:1313/tags/mobile-application/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mobile-application/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Penetration Testing</title>
+      <link>http://localhost:1313/tags/penetration-testing/</link>
+      <pubDate>Sun, 02 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/penetration-testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ECPPT</title>
+      <link>http://localhost:1313/tags/ecppt/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ecppt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CTF-Walkthrough</title>
+      <link>http://localhost:1313/tags/ctf-walkthrough/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ctf-walkthrough/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NaSCon&#39;23</title>
+      <link>http://localhost:1313/tags/nascon23/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nascon23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Fri, 02 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cmess</title>
+      <link>http://localhost:1313/tags/cmess/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cmess/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tryhackme</title>
+      <link>http://localhost:1313/tags/tryhackme/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tryhackme/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CyberHackathon&#39;23</title>
+      <link>http://localhost:1313/tags/cyberhackathon23/</link>
+      <pubDate>Sat, 09 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cyberhackathon23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lame</title>
+      <link>http://localhost:1313/tags/lame/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/lame/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NetworkSecurity</title>
+      <link>http://localhost:1313/tags/networksecurity/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/networksecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CEH-Practical</title>
+      <link>http://localhost:1313/tags/ceh-practical/</link>
+      <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ceh-practical/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>NetworkSecurity on 0xt0pus</title>
+    <link>http://localhost:1313/tags/networksecurity/</link>
+    <description>Recent content in NetworkSecurity on 0xt0pus</description>
+    <image>
+      <title>0xt0pus</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Thu, 07 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/networksecurity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qualifier Network Security (Warmy) - CyberHackathon&#39;23</title>
+      <link>http://localhost:1313/posts/ctf-writeups/warmy-networksecurity-cyberhackathon23/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/ctf-writeups/warmy-networksecurity-cyberhackathon23/</guid>
+      <description>&lt;p&gt;A pcap file was being given for analysis.&lt;/p&gt;
+&lt;p&gt;The pcap file was being opened in the wireshark.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/warmy-CTF/1.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I applied the &lt;code&gt;http&lt;/code&gt; filter to filter only http requests.&lt;/p&gt;
+&lt;p&gt;There was a zip file that was retrieved through http protocol. There was nothing interesting in this zip file.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/warmy-CTF/2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I moved on, and i found that many requests were being made to the &lt;code&gt;/f_data/data&lt;/code&gt; endpoint. All the requests were giving &lt;code&gt;403 forbidden&lt;/code&gt; response except the last one, which gave &lt;code&gt;200 OK&lt;/code&gt; response.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

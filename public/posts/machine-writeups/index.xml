@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine-Writeups on 0xt0pus</title>
+    <link>http://localhost:1313/posts/machine-writeups/</link>
+    <description>Recent content in Machine-Writeups on 0xt0pus</description>
+    <image>
+      <title>0xt0pus</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en</language>
+    <copyright>0xt0pus</copyright>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/machine-writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HackTheBox Editorial machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/editorial-hackthebox/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>HackTheBox Busqueda machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/busqueda-hackthebox/</link>
+      <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/busqueda-hackthebox/</guid>
+      <description>&lt;h2 id=&#34;enumeration&#34;&gt;Enumeration&lt;/h2&gt;
+&lt;p&gt;Run nmap all port scanning with the following command:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nmap -p- 10.10.11.208 --min-rate 2500 -T4 -oN nmap/allPorts.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The following is the nmap all ports output:&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/busqueda-HackTheBox/2.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;As the port 22 and 80 are open. Now run the service enumeration to find out the version of services running on the target.
+The following command was used for the service version enumeration.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;nmap -A 10.10.11.208 -p 22,80 -oN nmap/ServiceVersion.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The result of the command shows below:
+&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/writeups/busqueda-HackTheBox/3.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HackTheBox keeper machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/keeper-hackthebox/</guid>
+      <description>Keeper is an easy level Hackthebox machine, which runs SSH and Web services. The web server uses default service credentials and provides admin level access on the web server. The SSH password of a user is leaked on the web server which can be used to obtain the user level access of the machine. The home directory of the user is serving a memory dump. This dump teaches the CVE-2023-32784. This was a vulnerability in the Keepass, where the master password of password vault Keepass is stored in the memory. The exploit of this CVE is used to obtained master password of the vault. This vault has the root user putty key file, which was converted to the SSH private key format and was being used to obtain root level access. </description>
+    </item>
+    <item>
+      <title>TryHackMe Cmess machine Walkthrough</title>
+      <link>http://localhost:1313/posts/machine-writeups/cmess-tryhackme/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/cmess-tryhackme/</guid>
+      <description>Cmess is a Linux machine which contains exposed passwords, no restriction on file upload and a crontab privilege escalation.</description>
+    </item>
+    <item>
+      <title>HackTheBox Lame Machine WriteUps</title>
+      <link>http://localhost:1313/posts/machine-writeups/lame-hackthebox/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/machine-writeups/lame-hackthebox/</guid>
+      <description>A beginner track machine from HackTheBox</description>
+    </item>
+  </channel>
+</rss>
