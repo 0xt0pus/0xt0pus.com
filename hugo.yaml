@@ -29,9 +29,6 @@ languages:
       series: series
     menu:
       main:
-        - name: OSCP ToDo Boxes
-          url: todo
-          weight: 1
         - name: Certification Reviews
           url: posts/certification-reviews
           weight: 2
